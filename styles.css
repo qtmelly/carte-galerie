@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --couleur-bleuviolet: #4e6bff;
+  --couleur-roserouge: #ff4e4e;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  gap: 40px;
+}
+
+.haut {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.bleu {
+  font-size: 24px;
+  font-weight: 400;
+  width: 20%;
+  background-color: var(--couleur-bleuviolet);
+  padding: 16px;
+  text-align: center;
+  color: white;
+  border-radius: 12px;
+}
+
+.rose {
+  font-size: 24px;
+  font-weight: 400;
+  background-color: var(--couleur-roserouge);
+  width: 50%;
+  padding: 16px;
+  text-align: center;
+  color: white;
+  border-radius: 12px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+hr {
+  width: 80%;
+  background-color: black;
+  margin: 3rem;
+  height: 4px;
+  border-radius: 4px;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.photo {
+  display: flex;
+  object-fit: cover;
+}
